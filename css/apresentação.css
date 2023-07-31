@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.conteudo {
+
+    background-repeat: no-repeat;
+    margin: 20em;
+    display: grid ;
+   
+}
+
+.conteudo_seção {
+
+    text-align: center;
+}
+
+.conteudo_titulo {
+
+    color: black;
+    font-size: 4em ;
+    font-family: var(--familia-titulo-conteudo);
+
+}
+
+.conteudo_titulo {
+
+    margin: 3em;
+}
+
+.conteudo_lista {
+
+    display: block;
+}
+
+.lista_elemento {
+
+    font-size: 2em;
+    font-family: var(--familia-lista);
+}
+
+.texto_elemento {
+
+    font-size: 30px;
+    font-family: var(--familia-texto-da-lista);
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+}
+
+.divisão_elemento {
+
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.imagem {
+
+    width: 30em;
+    height: 30em;
+}
+
+.lista {
+
+    flex-direction: row;
+}
